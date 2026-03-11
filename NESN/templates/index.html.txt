@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NorthEast Card Services</title>
+<link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+
+<header>
+<h1>NorthEast Card Services</h1>
+<nav>
+<a href="/login">Login</a>
+<a href="/signup">Sign Up</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Manage Your Trading Card Portfolio</h2>
+<p>Inventory • Grading • Consignment • Pricing</p>
+<a class="btn" href="/signup">Get Started</a>
+</section>
+
+</body>
+</html>
