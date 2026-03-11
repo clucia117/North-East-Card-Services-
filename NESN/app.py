@@ -12,12 +12,12 @@ def home():
 def login():
     return render_template("login.html")
 
-@app.route("/signup", methods=["GET","POST"])
+@app.route("/signup", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
-        users.append({"email":email,"password":password})
+        users.append({"email": email, "password": password})
         return redirect("/dashboard")
     return render_template("signup.html")
 
